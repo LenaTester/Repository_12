@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 
-from framework_from_scratch.utilities.web_ui.base_page import BasePage
-from framework_from_scratch.page_objects.new_email_page import NewEmailPage
-from framework_from_scratch.page_objects.new_successful_password import NewSuccessfulPassword
-from framework_from_scratch.utilities.decorators import auto_steps
+from utilities.web_ui.base_page import BasePage
+from page_objects.new_email_page import NewEmailPage
+from page_objects.new_successful_password import NewSuccessfulPassword
+from utilities.decorators import auto_steps
 
 @auto_steps
 class ProfilePage(BasePage):
