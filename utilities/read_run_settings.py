@@ -1,7 +1,7 @@
 import configparser
 import os
 
-from pythonProject.Repository_3.framework_from_scratch.CONSTS import ROOT_DIR
+from CONSTS import ROOT_DIR
 
 abs_path = os.path.abspath(fr"{ROOT_DIR}/configurations/configuration.ini")
 config = configparser.RawConfigParser()
