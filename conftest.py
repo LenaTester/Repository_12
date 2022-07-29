@@ -1,9 +1,9 @@
 from contextlib import suppress
 import pytest
 
-from pythonProject.Repository_3.framework_from_scratch.page_objects.home_page import HomePage
-from pythonProject.Repository_3.framework_from_scratch.utilities.driver_factory import DriverFactory
-from pythonProject.Repository_3.framework_from_scratch.utilities.read_run_settings import ReadConfig
+from page_objects.home_page import HomePage
+from utilities.driver_factory import DriverFactory
+from utilities.read_run_settings import ReadConfig
 
 @pytest.fixture()
 def successful_login(get_home_page, create_driver):
