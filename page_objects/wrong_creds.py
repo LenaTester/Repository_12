@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from framework_from_scratch.utilities.web_ui.base_page import BasePage
-from framework_from_scratch.utilities.decorators import auto_steps
+from utilities.web_ui.base_page import BasePage
+from utilities.decorators import auto_steps
 
 @auto_steps
 class WrongCreds(BasePage):
