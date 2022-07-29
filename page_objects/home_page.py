@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 
-from framework_from_scratch.utilities.web_ui.base_page import BasePage
-from framework_from_scratch.page_objects.profile_page import ProfilePage
-from framework_from_scratch.page_objects.wrong_creds import WrongCreds
-from framework_from_scratch.utilities.decorators import auto_steps
+from utilities.web_ui.base_page import BasePage
+from page_objects.profile_page import ProfilePage
+from page_objects.wrong_creds import WrongCreds
+from utilities.decorators import auto_steps
 
 @auto_steps
 class HomePage(BasePage):
