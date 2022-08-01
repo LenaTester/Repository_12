@@ -28,7 +28,7 @@ def test_user_comments(successful_login_go_to_profile):
     profile_page = successful_login_go_to_profile
     notification = profile_page.get_notification_comments()
     print(notification)
-    assert notification == '1', \
+    assert notification == '0', \
         f'\nUser have comments\nActual: {notification}\nExpected: ""'
 
 
